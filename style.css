@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2? family= Libre+Baskerville:wght@400;700 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly; /* space-evenly - cria um espaço entre os itens */
+
+}
+
+.trailer {
+    position: fixed;
+    z-index: -1; /* z-index -1 leva a imagem para trás*/
+    width: 100vw;
+    height: 100vh;
+}
+
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.mask {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10,12, 16, 0.99) 15%, rgba(10,12,16,0.7) 50%, rgba(10,12,16,0.99) 85%);
+}
+
+main {
+    width: 40%;
+}
+
+.soon {
+    width: 400px;
+}
+
+p {
+    color: white;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.button {
+    height: 35px;
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgba(124, 230, 19, 0.918);
+    color: rgb(202, 29, 29);
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+.mario-luigi {
+    height: 450px;
+}
+
+.contact-us {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 15px;
+    position: fixed;
+    left: -320px;
+
+}
+
+input {
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(66, 51, 153);
+    padding-left: 10px;
+    outline-color: rgba(124, 230, 19, 0.918);
+}
+
+textarea {
+    height: 45px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(66, 51, 153);
+    padding: 5px 0 0 10px; 
+    outline-color: rgba(124, 230, 19, 0.918);
+}

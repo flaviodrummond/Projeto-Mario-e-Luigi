@@ -128,7 +128,7 @@ header a:hover {
     gap: 15px;
     position: fixed;
     left: -335px;
-    transition: left 1s linear;
+    transition: left 1s ease-in-out;
     z-index: 4; /* com o z-index maior que o z-index da máscara, o formulário ficará na frente da máscara  */
 }
 
@@ -173,6 +173,6 @@ textarea {
     visibility: hidden; /* máscara fica escondida */
     position: fixed;
     top: 0;
+    transition: visibility 1s ease-in-out;
     background: linear-gradient(109deg, rgba(10,12, 16, 0.99) 15%, rgba(10,12,16,0.7) 50%, rgba(10,12,16,0.99) 85%);
-    z-index: 3; /* com o z-index menor que o z-index do formulário, o formulário ficará na frente da máscara  */
 }

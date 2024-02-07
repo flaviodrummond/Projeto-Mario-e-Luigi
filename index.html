@@ -12,10 +12,10 @@
 <body>
     <header class="header">
 
-    <img src="./assets/header.png" alt="Mário">
-    <a href="">Home</a>  
-    <a href="">Nossos Serviços</a>
-    <a href="">Fale Conosco</a>     
+        <img src="./assets/header.png" alt="Mário">
+        <a href="">Home</a>
+        <a href="">Nossos Serviços</a>
+        <a href="">Fale Conosco</a>
 
     </header>
     <div class="container">
@@ -47,11 +47,12 @@
 
         </section>
 
-        <form class="contact-us" action="https://formsubmit.co/flaviosax20@gmail.com" method="POST">
+        <form class="contact-us" action="https://formcarry.com/s/ZctcsIIGZ8G" method="POST"
+            enctype="multipart/form-data">
 
             <h1>Orçamento</h1>
             <input type="text" placeholder="Seu Nome" name="name">
-            <input type="number" placeholder="Telefone" name="telefone">
+            <input type="tel" placeholder="Telefone" name="telefone">
             <input type="email" placeholder="Email" name="email">
             <textarea placeholder="Digite aqui" name="info"></textarea>
             <button class="submit" onclick="submitForm()">Pedir Orçamento</button>
@@ -59,10 +60,12 @@
 
         </form>
 
-        <div class="form-mask"></div>
+        <div class="form-mask" onclick="hideMask()"></div>
     </div>
 
-    <a target="_blank" href="https://api.whatsapp.com/send?phone=5527981122334&text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20os%20irm%C3%A3os%20M%C3%A1rios%20!" class="link_whatsapp">
+    <a target="_blank"
+        href="https://api.whatsapp.com/send?phone=5527981122334&text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20os%20irm%C3%A3os%20M%C3%A1rios%20!"
+        class="link_whatsapp">
         <img src="./assets/whatsapp.png" alt="whatsapp">
     </a>
 

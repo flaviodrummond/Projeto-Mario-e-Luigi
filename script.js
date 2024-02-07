@@ -6,7 +6,6 @@ let clickedButton = () =>  {
     form.style.left = "50%"
     form.style.transform = "translateX(-50%)"
     formMask.style.visibility = 'visible'
-    // return form.style.left = "750px";
 }
 
 let hideMask = () => {
@@ -17,4 +16,3 @@ let hideMask = () => {
 }
 
 
-// let submitForm = () => form.style.left = "-320px"
